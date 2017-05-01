@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <AbsoluteLayout
+        android:id="@+id/myLayout"
+        android:background="@drawable/back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:stretchColumns="0" >
+
+        <TextView
+
+            android:layout_width="131dp"
+            android:layout_height="74dp"
+            android:layout_x="16dp"
+            android:layout_y="97dp"
+            android:text="@string/registno"
+            android:textColor="#ffffffff" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/editRegno"
+            android:layout_width="154dp"
+            android:layout_height="40dp"
+            android:layout_x="159dp"
+            android:layout_y="88dp"
+            android:inputType="number"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="37dp"
+            android:layout_x="22dp"
+            android:layout_y="156dp"
+            android:text="@string/name1"
+            android:textColor="#ffffffff" >
+        </TextView>
+
+        <EditText android:gravity="center"
+            android:id="@+id/textName"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="157dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="49dp"
+            android:layout_x="22dp"
+            android:layout_y="238dp"
+            android:text="@string/dob"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textDob"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="228dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="43dp"
+            android:layout_x="22dp"
+            android:layout_y="371dp"
+            android:text="@string/type"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textTyype"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="371dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="30dp"
+            android:layout_x="22dp"
+            android:layout_y="309dp"
+            android:text="@string/board"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textBoard"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="299dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="465dp"
+            android:text="@string/tot"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textTot"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="447dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="544dp"
+            android:text="@string/cut"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textCut"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="524dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="635dp"
+            android:text="@string/mob"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textMob"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="618dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_x="22dp"
+            android:layout_y="704dp"
+            android:text="@string/gpa1"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textGPA1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="708dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_x="22dp"
+            android:layout_y="785dp"
+            android:text="@string/gpa2"
+            android:textColor="#ffffffff" >
+        </TextView>
+
+        <EditText android:gravity="center"
+            android:id="@+id/textGPA2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="795dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_x="22dp"
+            android:layout_y="874dp"
+            android:text="@string/gpa3"
+            android:textColor="#ffffffff" >
+        </TextView>
+
+        <EditText android:gravity="center"
+            android:id="@+id/textGPA3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="882dp"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <Button android:background="@drawable/button"
+            android:id="@+id/btnIns"
+            android:layout_width="77dp"
+            android:layout_height="35dp"
+            android:layout_x="225dp"
+            android:layout_y="14dp"
+            android:text="Insert"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="22dp"
+            android:layout_y="13dp"
+            android:text="@string/title"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:typeface="serif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_x="22dp"
+            android:layout_y="968dp"
+            android:text="@string/gpa4"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="48dp"
+            android:layout_x="22dp"
+            android:layout_y="1056dp"
+            android:text="@string/gpa5"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textGPA4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="967dp"
+            android:ems="10"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textGPA5"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="1059dp"
+            android:ems="10"
+            android:elevation="50dp"
+            android:textColor="#ffffffff">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="33dp"
+            android:layout_x="22dp"
+            android:layout_y="1150dp"
+            android:text="@string/famob"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textFamob"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="1145dp"
+            android:ems="10"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="61dp"
+            android:layout_x="22dp"
+            android:layout_y="1227dp"
+            android:text="@string/mamob"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textMamob"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="1225dp"
+            android:ems="10"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="42dp"
+            android:layout_x="22dp"
+            android:layout_y="1307dp"
+            android:text="@string/cgpa"
+            android:textColor="#ffffffff" />
+
+        <EditText android:gravity="center"
+            android:id="@+id/textCGPA"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="160dp"
+            android:layout_y="1290dp"
+            android:ems="10"
+            android:elevation="50dp"
+            android:textColor="#ffffffff" />
+
+
+    </AbsoluteLayout>
+
+</ScrollView>
